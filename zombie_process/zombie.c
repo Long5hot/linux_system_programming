@@ -18,3 +18,10 @@ int main() {
     //because parent needs to collect exit status of child
     //Once parent gets exit status of child process manager removes child from zombie.
 }
+
+//If child wants tot send exit status to its parent then
+//child need to use exit() or _exit()
+
+//If parent want to collect the exit status then parent need to use 
+//wait or waitpid()
+

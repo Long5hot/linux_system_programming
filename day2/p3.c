@@ -8,7 +8,8 @@ int main() {
     //parent and child process will run concurrently
     printf("In program p3 pid= %d, ppid= %d\n", getpid(), getppid());
     fork();
+    // fork();
     printf("In program p3 pid= %d, ppid= %d\n", getpid(), getppid());
-    while(1);
+    // while(1);
     return 0;
 }
